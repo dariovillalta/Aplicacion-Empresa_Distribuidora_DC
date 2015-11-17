@@ -1,0 +1,21 @@
+{
+  "name": "Bower install --save bootstrap",
+  "description": "Empresa_de_distribucion",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "https://github.com/dariovillalta/Aplicacion-Empresa_Distribuidora_DC",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "authors": [
+    "Dario Cardona <dario.cardona@unitec.edu>"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5"
+  }
+}
