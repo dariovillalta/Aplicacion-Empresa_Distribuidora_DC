@@ -1,0 +1,19 @@
+
+body{
+  background-image: url('back_login.jpg');
+}
+
+#login{
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  border: solid 13px;
+  margin-top: 200px;
+  height: 250px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+#aceptar{
+  width: 120px;
+  height: 25px;
+}
