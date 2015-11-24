@@ -1,0 +1,74 @@
+<div ng-controller="usuarioController">
+<div id='body_usuario'>
+
+  <div class='container' id='bootsta'>
+    <div class='row'>
+      <div id='create_user' class= 'col-xs-10 col-xs-offset-1 ' >
+        <form>
+              <h2>Informacion General</h2>
+              Nombre:<input type="text" name="nombre" value="" />
+              Contrase&ntildea:<input type="text" name="password" value="" /><br> <br>
+              Direccion:<input type="text" name="direccion" value="" />
+              Telefono movil:<input type="text" name="telefono_personal" value="" /><br> <br>
+              Correo electronico:<input type="text" name="correo" value="" /><br>
+
+              Selecione tipo de usuario en caso de usuario interno:
+                <input type="radio" name="user_1" value="Administrador" checked>Administrador
+                <input type="radio" name="user_1" value="Vendedor">Vendedo
+                <br><br><button id='aceptar' type="button" class="btn btn-success" aria-label="Left Align" >Crear Usuario Interno</button> <br><br>
+          </form>
+          <form>
+            Telefono empresarial:<input type="text" name="telefono_empresa" value="" />
+             Zona:<select>
+                    <option value="Panama">Panama</option>
+                    <option value="Tegucigalpa">Tegucigalpa</option>
+                    <option value="Olancho">Olancho</option>
+                    <option value="Danli">Danli</option>
+                    <option value="Oriente">Oriente</option>
+                    <option value="Norte">Norte</option>
+                    <option value="Sur">Sur</option>
+                  </select> <br><br>
+              Selecione tipo de usuario en caso de usuario externo:
+              <input type="radio" name="user_2" value="Proveedor" checked>Proveedor
+              <input type="radio" name="user_2" value="Cliente">Cliente
+            <br><br><button id='aceptar' type="button" class="btn btn-success" aria-label="Left Align" >Crear Usuario Externos</button> <br><br>
+         </form>
+      </div>
+    </div>
+
+     <div class='row'>
+
+            <div id='div_table' class= 'col-xs-10 col-xs-offset-1  '>
+              <select>
+                <option value="Usuarios">Usuarios</option>
+              </select>
+             <button id='aceptar' type="button" class="btn btn-success" aria-label="Left Align" >Ver Usuario</button>
+              <table id="table" class="table table-striped">
+                <tr>
+                  <th>
+                    Fecha
+                  </th>
+                  <th>
+                    Accion
+                  </th>
+                  <th>
+                    Cantidad
+                  </th>
+                </tr>
+                <tr >
+                  <td>
+
+                  </td>
+                  <td>
+
+                  </td>
+                  <td>
+
+                  </td>
+                </tr>
+              </table>
+            </div>
+     </div>
+ </div>
+</div>
+</div>
